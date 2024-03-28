@@ -1,0 +1,83 @@
+
+.card-container {
+    display: flex; 
+    justify-content: center; 
+    flex-direction: row-reverse;
+    
+  }
+  
+  .card {
+    width: 200px; 
+    border: 1px solid #ccc; 
+    padding: 10px;
+    margin: 24px;
+    border-radius: 7px;
+    background-color: black;
+    box-shadow: 0px 0px 16px black;
+    transition: 0.5s;
+
+    animation-name: abcd;
+    animation-duration: 3s;
+    animation-timing-function: 3s;
+    animation-timing-function: 5;
+    animation-delay: 0s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+
+   
+    
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    
+  }
+
+  .d{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 100%;
+  }
+  
+
+  p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+
+    animation-name: abcd;
+    animation-duration: 3s;
+    animation-timing-function: 3s;
+    animation-timing-function: 5;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+  }
+
+
+
+  .card:hover{
+    box-shadow: 0px 8px 17px black;
+    background-color: blue;
+
+  }
+
+ @keyframes abcd{
+  from{font-size: 5px;
+    background-color: cadetblue;
+    
+
+  }
+  to{
+    font-size: 20px;
+    background-color: rebeccapurple;
+    
+
+  }
+ }
+
